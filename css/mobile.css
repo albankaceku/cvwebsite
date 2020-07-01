@@ -1,0 +1,94 @@
+@media(max-width: 600px) {
+  #main-nav .container {
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+
+  #main-nav .logo {
+    justify-self: center;
+    width: 300px;
+  }
+
+  #main-nav ul {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: .9rem;
+    margin-left: -15px;
+  }
+
+  .showcase .container {
+    grid-template-columns: 1fr;
+  }
+
+  .showcase .container img {
+    width: 350px;
+    height: 350px;
+    margin-left: -10px;
+  }
+
+  .showcase .container h1 {
+    margin-left: 50px;
+  }
+
+  .showcase .container .flex-items {
+    flex-direction: column;
+  }
+
+  /* Resume */
+  #main-section .flex-items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #main-section .page-container {
+    grid-template-columns: 1fr;
+  }
+
+  #main-section #aside {
+    margin: 0;
+  }
+
+  /* Projects */
+  #projects .container h1 {
+    font-size: 4rem;
+  }
+
+  #projects .page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #projects .page-container .flex-columns h3 {
+    border-top: none;
+  }
+
+  #projects .container #talk {
+    flex-direction: column;
+  }
+
+  #contact .page-container #form #submit-btn {
+    text-align: center;
+  }
+
+  /* Contact */
+  #contact .page-container {
+    grid-template-columns: 1fr;
+  }
+
+  #contact .page-container .l-heading {
+    font-size: 4rem;
+  }
+
+  /* Footer */
+
+  #main-footer .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  #main-footer .container .flex-items div:first-child {
+    margin-bottom: 1rem;
+  }
+}
